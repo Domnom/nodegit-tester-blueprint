@@ -56,7 +56,7 @@
                                     "start": 100,
                                     "duration": 100,
                                     "code": {
-                                        "template": "/code/init-file.hbs",
+                                        "template": "step-01/code/init-file.hbs",
                                         "partial_sections": [],
                                         "output": "init-file.txt"
                                     }
@@ -99,7 +99,7 @@
                                     "start": 0,
                                     "duration": 100,
                                     "code": {
-                                        "template": "/code/features/cool/CoolFeature.hbs",
+                                        "template": "step-02/code/features/cool/CoolFeature.hbs",
                                         "partial_sections": [],
                                         "output": "features/cool/CoolFeature.js"
                                     }
@@ -153,7 +153,7 @@
                                     "start": 0,
                                     "duration": 100,
                                     "code": {
-                                        "template": "/code/features/cool/CoolFeature.hbs",
+                                        "template": "step-03/code/features/cool/CoolFeature.hbs",
                                         "partial_sections": [
                                             {
                                                 "partial_id": "partial_1",
@@ -186,7 +186,7 @@
                                     "start": 100,
                                     "duration": 100,
                                     "code": {
-                                        "template": "/code/service/ValidationService.hbs",
+                                        "template": "step-03/code/service/ValidationService.hbs",
                                         "partial_sections": [],
                                         "output": "service/ValidationService.js"
                                     }
@@ -240,7 +240,7 @@
                                     "start": 0,
                                     "duration": 100,
                                     "code": {
-                                        "template": "/code/features/cool/CoolFeature.hbs",
+                                        "template": "step-04/code/features/cool/CoolFeature.hbs",
                                         "partial_sections": [
                                             {
                                                 "partial_id": "partial_1",
