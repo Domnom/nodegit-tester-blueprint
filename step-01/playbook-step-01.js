@@ -6,7 +6,7 @@ module.exports = step("step-01")
 						"start" : 0,
 						"duration" : 100
 					})
-					.addCode("/code/init-file.hbs", "init-file.txt")
+					.addCode("step-01/code/init-file.hbs", "init-file.txt")
 					.withTime({
 						"start" : 100,
 						"duration" : 100
