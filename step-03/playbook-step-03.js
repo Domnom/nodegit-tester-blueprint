@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = step("step-03")
-					.addCode("/code/features/cool/CoolFeature.hbs", "features/cool/CoolFeature.js")
+					.addCode("step-03/code/features/cool/CoolFeature.hbs", "features/cool/CoolFeature.js")
 						.withPartial("partial_1", "step-03/code/features/cool/CoolFeature_partials/partial_1.hbs", 0, 100)
 						.withPartial("partial_2", "step-03/code/features/cool/CoolFeature_partials/partial_2.hbs", 100, 100)
 						.withPartial("partial_3", "step-03/code/features/cool/CoolFeature_partials/partial_3.hbs", 200, 100)
@@ -9,7 +9,7 @@ module.exports = step("step-03")
 						"start" : 0,
 						"duration" : 100
 					})
-					.addCode("/code/service/ValidationService.hbs", "service/ValidationService.js")
+					.addCode("step-03/code/service/ValidationService.hbs", "service/ValidationService.js")
 					.withTime({
 						"start" : 100,
 						"duration" : 100
